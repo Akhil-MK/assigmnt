@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Tak 1</title>
+	<!-- <script type="text/javascript" src="valid.js"></script> -->
+</head>
+<script>  
+function validate(){  
+var name=document.myform.name1.value; 
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;   
+}  
+</script>  
+<form name="form1" method="post" onsubmit="return validateForm()">
+	Name<input type="text" name="name" placeholder="NAME"><br>
+	DOB<input type="date" name="dob" ><br>
+	MOB<input type="text" name="phone"><br>
+	Email<input type="email" name="email"><br>
+	Gender<input type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="female">Female<br>
+	mark%<input type="text" name="mark">
+	<input type="submit" name="btn" value="Register">
+</form>
+</html>

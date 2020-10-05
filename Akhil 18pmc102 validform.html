@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validate</title>
+	<link rel="stylesheet" type="text/css" href="bt.css">
+</head>
+
+<script type="text/javascript" src="valid.js"></script>
+<style type="text/css">
+	body {
+background: #283048; 	
+background: linear-gradient(to right, #a1c4fd, #c2e9fb); /
+	}
+</style>
+<body>
+<form name="form1" method="post">  
+	<h1 align="center"><u>REGISTRATION</u></h1>
+<table border="0" align="center">
+	<tr>
+		<td colspan="2"><marquee> <h4>***Enter Your Details***</h4></marquee></td>
+	</tr>
+	<tr>
+		<td>Name : </td>
+		<td><input type="text" name="name" placeholder="Name"></td>
+	</tr>
+<tr>
+		<td>Date of Birth:</td>
+		<td><input type="Date" name="dob" max="2020-08-08" ></td>
+	</tr>
+	<tr>
+		<td>Mobile:</td>
+		<td><input type="Mobile" name="mobile"  placeholder="9876543210"></td>
+	</tr>
+	<tr>
+		<td>Email Id:</td>
+		<td><input type="Email" name="email"  placeholder="User@gmail.com"></td>
+	</tr>
+	<tr>
+		<td>Gender:</td>
+		<td><input type="radio" name="gender" value="male" >Male
+		<input type="radio" name="gender" value="female">Female
+		<input type="radio" name="gender" value="others">Others</td>
+	</tr>
+	<tr>
+		<td>Percentage of Mark</td>
+		<td><input type="text" name="mark"  placeholder="100%"></td>
+	</tr>
+	<tr><br><td></td></tr>
+	<tr><td></td>
+		<td>
+			<input type="button" name="ok" value="Register" onclick="return validateForm()">
+			<!-- <div class="button-7">
+    <div  class="eff-7"></div>
+    <a onclick="return validForm()"> Register </a>
+  </div> -->
+		</td>
+	</tr>
+	<tr>
+		<td>
+<div class="button-7">
+    <div  class="eff-7"></div>
+    <a href="index.html"> Return Home </a>
+  </div>		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
